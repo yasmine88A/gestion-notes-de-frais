@@ -1,0 +1,171 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+
+  background-color: #f4cccc;
+  display: flex;
+  align-items: stretch; /* <-- assure que sidebar et contenu aient la même hauteur */
+  min-height: 94vh;     /* <-- garantit que le body prend toute la hauteur de l'écran */
+}
+
+
+
+/* Sidebar */
+.sidebar {
+  width: 220px;
+  height: auto;
+  min-height: 94vh; /* prend au moins toute la hauteur de l'écran */
+  background-color: #7c4f4f; /* Marron doux */
+  padding: 20px 0;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+.sidebar p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  padding-left: 20px;
+  display: flex;
+  color:#000000;
+  align-items: center;
+}
+
+.sidebar i {
+  margin-right: 10px;
+}
+
+.sidebar a {
+  padding: 15px 20px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  transition: background 0.3s ease;
+}
+
+.sidebar a:hover {
+  background-color: #5a3a3a; /* Teinte plus foncée au survol */
+}
+
+.logout {
+  margin-top: auto;
+  background-color: #3b2c2c;
+    
+}
+
+/* Contenu principal */
+.main {
+  margin-left: 220px;
+  padding: 40px;
+  flex: 1;
+}
+
+.search-container {
+  display: flex;
+
+  justify-content: center;
+  margin: 30px auto;
+  width: 100%;
+  max-width: 550px;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: white;
+  border-radius: 25px;
+  padding: 8px 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.search-box input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 25px;
+}
+
+.search-box button {
+  background-color: #7c4f4f;
+  border: none;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.search-box button:hover {
+  background-color:  #7c4f4f;
+
+}
+.bouton-rembourser {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+.bouton-rembourser {
+  background-color: #844a4a;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.bouton-rembourser  i {
+  margin-right: 8px;
+}
+
+
+.bouton-rembourser :hover {
+  background-color:#3b2c2c;
+}
+
+
+
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: rgb(255, 255, 255);
+}
+
+th, td {
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #995656;
+}
+
+th {
+  background-color:  rgb(255, 243, 243);
+  font-weight: bold;
+  color: #333;
+}
+
+td {
+  font-size: 16px;
+}
+tbody tr:nth-child(odd) {
+  background-color: rgb(255, 255, 255);
+}
+
+tbody tr:nth-child(even) {
+  background-color:  rgb(255, 243, 243);
+}
+input[type="checkbox"] {
+  transform: scale(1.2);
+}

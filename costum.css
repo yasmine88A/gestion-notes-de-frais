@@ -1,0 +1,12 @@
+/* Pour coller le bouton Déconnexion en bas */
+.sidebar .nav {
+  display: flex;
+  flex-direction: column;
+  height:77%;
+}
+
+.logout-item {
+  margin-top: auto;
+}
+
+ 

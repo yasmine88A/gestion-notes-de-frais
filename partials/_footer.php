@@ -1,0 +1,8 @@
+<!-- partials/_footer.php -->
+<script src="assets/vendors/js/vendor.bundle.base.js"></script>
+<script src="assets/vendors/select2/select2.min.js"></script>
+<script src="assets/js/off-canvas.js"></script>
+<script src="assets/js/hoverable-collapse.js"></script>
+<script src="assets/js/misc.js"></script>
+<script src="assets/js/settings.js"></script>
+<script src="assets/js/todolist.js"></script>

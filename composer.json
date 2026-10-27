@@ -1,0 +1,17 @@
+{
+    "name": "hp/app",
+    "autoload": {
+        "psr-4": {
+            "Hp\\App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Your Name",
+            "email": "you@example.com"
+        }
+    ],
+    "require": {
+        "dompdf/dompdf": "^3.1"
+    }
+}
